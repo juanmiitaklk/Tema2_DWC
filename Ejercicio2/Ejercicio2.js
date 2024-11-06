@@ -1,4 +1,4 @@
-// Función que recoge los valores de los inputs y los muestra en la consola
+// Funcion que recoge los valores de los inputs y los muestra en la consola
 function mostrarValores() {
   const producto = document.getElementById("producto").value;
   const cantidad = document.getElementById("cantidad").value;
@@ -11,7 +11,7 @@ function mostrarValores() {
   console.log("Descuento:", descuento);
 }
 
-// Asignar la función mostrarValores al evento click del botón "Agregar"
+// Asignar la funcion mostrarValores al evento click del botón "Agregar"
 document.getElementById("agregarLinea").addEventListener("click", function(event) {
   event.preventDefault();  // Evitar que el enlace recargue la página
   mostrarValores();
