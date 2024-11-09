@@ -1,3 +1,6 @@
+"use strict";
+
+
 document.addEventListener('DOMContentLoaded', function() {
     let producto = document.getElementById('producto');
     let cantidad = document.getElementById('cantidad');

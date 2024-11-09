@@ -1,3 +1,6 @@
+"use strict";
+
+
 // Funcion que recoge los valores de los inputs y los muestra en la consola
 function mostrarValores() {
   const producto = document.getElementById("producto").value;
